@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CanBye - Blog</title>
+    <!-- CSS dosyasını ekleyin -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start-screen" id="startScreen" onclick="startSite()">
+        Ekrana Tıkla
+    </div>
+
+    <video autoplay loop muted playsinline id="backgroundVideo">
+        <source src="images/background-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="audio-control">
+        <img src="images/sound-on.png" alt="Audio Control" id="audioToggle" onclick="toggleAudio()">
+    </div>
+
+    <div class="card">
+        <div class="view-counter" id="viewCounter">0</div>
+        <div class="profile-pic"></div>
+        <h1>CanBye</h1>
+        <p class="subtitle">
+            <img src="images/developed.png" alt="VS Code"> E-Ticaret <img src="images/vs.png" alt="GitHub"> <img src="images/vscode.png" alt="Twitter">
+        </p>
+
+        <div class="icons">
+            <a href="https://github.com/CanBye">
+                <img src="images/deneme.png" alt="GitHub">
+            </a>
+            <a href="https://discord.gg/8pTMgmazS5">
+                <img src="images/discord-icon.png" alt="Discord">
+            </a>
+            <a href="https://steamcommunity.com/id/canbye/">
+                <img src="images/steam-icon.png" alt="Steam">
+            </a>
+            <a href="https://open.spotify.com/user/315nbbxwyg2x4ff4f7bslnwx6oby?si=3d462b839a90433c">
+                <img src="images/spotify-icon.png" alt="Spotify">
+            </a>
+            <a href="https://www.youtube.com/@lbsoftware8417">
+                <img src="images/youtube-icon.png" alt="YouTube">
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="images/developed.png" alt="CanBye Logo">
+        Developed By CanBye
+    </div>
+
+    <!-- JavaScript dosyasını ekleyin -->
+    <script src="script.js"></script>
+</body>
+</html>
